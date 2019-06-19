@@ -21,7 +21,7 @@
         <module>ebuy-manager-pojo</module>
         <module>ebuy-manager-interface</module>
         <module>ebuy-manager-service</module>
-        <module>ebuy-manager-web</module>
+
     </modules>
 
     <!-- 配置tomcat插件 -->

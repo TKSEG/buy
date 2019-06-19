@@ -2,7 +2,7 @@ package com.igeek.ebuy.pojo;
 
 import java.util.Date;
 
-public class TbItem {
+public class TbItem implements java.io.Serializable {
     public Long id;
 
     public String title;

@@ -1,5 +1,6 @@
 package com.igeek.ebuy.service;
 
+import com.igeek.common.pojo.EasyUIDataGridResult;
 import com.igeek.ebuy.pojo.TbItem;
 
 /**
@@ -13,4 +14,5 @@ public interface ItemService {
      * @return
      */
     public TbItem getItemByid(long id);
+  public EasyUIDataGridResult getItemList(int page, int rows );
 }
