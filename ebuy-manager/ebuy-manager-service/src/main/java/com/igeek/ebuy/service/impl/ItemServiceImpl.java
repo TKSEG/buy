@@ -38,6 +38,7 @@ public class ItemServiceImpl implements ItemService {
     }
 
 
+    @Override
     public EasyUIDataGridResult getItemList(int page, int rows) {
         EasyUIDataGridResult result = null;
         //设置分页的页面和每页条数

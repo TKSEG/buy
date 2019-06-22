@@ -7,9 +7,9 @@
 	    <table cellpadding="5">
 	        <tr>
 	            <td>商品类目:</td>
-	            <td>
+	            <input>
 	            	<a href="javascript:void(0)" class="easyui-linkbutton selectItemCat">选择类目</a>
-	            	<input type="hidden" name="cid" style="width: 280px;"></input>
+	            	<input type="hidden" name="cid" style="width: 280px;">
 	            </td>
 	        </tr>
 	        <tr>

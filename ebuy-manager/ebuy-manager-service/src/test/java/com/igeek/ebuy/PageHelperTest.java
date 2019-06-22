@@ -9,15 +9,15 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.io.IOException;
 import java.util.List;
 
 /**
  * Created by yangbo on 2019/6/19.
  */
 public class PageHelperTest {
-    @Test
-    public void testPageHelper() {
-        ApplicationContext context = new
+
+    public static void main(String[] args) throws IOException {        ApplicationContext context = new
                 ClassPathXmlApplicationContext("classpath:spring/applicationContext-dao.xml");
         TbItemMapper itemMapper = context.getBean(TbItemMapper.class);
         //设置页面和条数

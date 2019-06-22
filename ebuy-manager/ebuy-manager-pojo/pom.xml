@@ -12,6 +12,8 @@
     <packaging>jar</packaging>
 
     <artifactId>ebuy-manager-pojo</artifactId>
+    <dependencies>
 
+    </dependencies>
 
 </project>

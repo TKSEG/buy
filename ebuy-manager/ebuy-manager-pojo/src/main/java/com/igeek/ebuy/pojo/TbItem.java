@@ -1,5 +1,6 @@
 package com.igeek.ebuy.pojo;
 
+
 import java.util.Date;
 
 public class TbItem implements java.io.Serializable {
@@ -38,7 +39,7 @@ public class TbItem implements java.io.Serializable {
     }
 
     public void setTitle(String title) {
-        this.title = title == null ? null : title.trim();
+        this.title = title;
     }
 
     public String getSellPoint() {
@@ -46,7 +47,7 @@ public class TbItem implements java.io.Serializable {
     }
 
     public void setSellPoint(String sellPoint) {
-        this.sellPoint = sellPoint == null ? null : sellPoint.trim();
+        this.sellPoint = sellPoint;
     }
 
     public Long getPrice() {
@@ -70,7 +71,7 @@ public class TbItem implements java.io.Serializable {
     }
 
     public void setBarcode(String barcode) {
-        this.barcode = barcode == null ? null : barcode.trim();
+        this.barcode = barcode;
     }
 
     public String getImage() {
@@ -78,7 +79,7 @@ public class TbItem implements java.io.Serializable {
     }
 
     public void setImage(String image) {
-        this.image = image == null ? null : image.trim();
+        this.image = image;
     }
 
     public Long getCid() {

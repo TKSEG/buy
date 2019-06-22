@@ -10,7 +10,8 @@ import java.io.IOException;
  * Created by yangbo on 2019/6/19.
  */
 public class SpringTest {
-    public  void main(String[] args) {
+
+    public static void main(String[] args) throws IOException {
         try {
             //手动创建spring容器
             ApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-*.xml");
@@ -24,4 +25,17 @@ public class SpringTest {
             e.printStackTrace();
         }
     }
+
+
+/*
+    public static void main(String[] args) throws IOException {
+        ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-service.xml");
+     //   itemService.getItemList(page, rows)
+     //   OrderService orderService = applicationContext.getBean(OrderService.class);
+
+    //    orderService.initOrder("1");
+        System.out.println("调用完成....");
+        System.in.read();
+    }
+*/
 }

@@ -2,11 +2,9 @@ package com.igeek.common.pojo;
 
 import java.io.Serializable;
 import java.util.List;
-import lombok.Data;
 /**
  * Created by yangbo on 2019/6/19.
  */
-@Data
 public class EasyUIDataGridResult implements Serializable{
     private Integer total;
     private List<?> rows;

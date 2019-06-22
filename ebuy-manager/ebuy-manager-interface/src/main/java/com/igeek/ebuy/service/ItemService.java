@@ -14,5 +14,9 @@ public interface ItemService {
      * @return
      */
     public TbItem getItemByid(long id);
-  public EasyUIDataGridResult getItemList(int page, int rows );
+
+    public EasyUIDataGridResult getItemList(int page, int rows);
+
+
+
 }
